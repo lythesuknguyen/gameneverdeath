@@ -1,0 +1,13 @@
+{
+    "autoload": {
+      "psr-4": {
+        "Packages\\System\\":"core/System",
+        "Packages\\AppDefault\\":"core/AppDefault"
+      }
+    },
+    "require": {
+      "phpmailer/phpmailer": "^6.1",
+      "league/oauth2-google": "^3.0"
+    }
+  }
+  

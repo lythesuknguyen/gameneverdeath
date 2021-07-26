@@ -1,0 +1,158 @@
+.game-cover-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 89%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #50505059;
+}
+
+.game-card:hover .game-cover-overlay {
+    opacity: 1;
+}
+
+.game-cover-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .dog-tag {
+    background: url("/assets/img/icons/dog-tag.png") center / contain no-repeat;
+    width: 256px;
+    height: 148px;
+    padding-top: 0;
+    padding-bottom: 0;
+    filter: sepia(32%);
+    margin: 5px;
+    font-family: Arbutus, cursive;
+}
+
+.dog-tag-create {
+    width: 100%;
+    padding: 0;
+    padding-left: 57px;
+    height: 100%;
+    font-size: 17px;
+    border-style: none;
+    color: rgb(208,208,208) !important;
+    text-align: left;
+    border: none;
+    /*font-family: Arbutus, cursive;*/
+}
+
+.dog-tag-dashboard {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    border-style: none;
+    color: rgb(208,208,208);
+    text-align: left;
+}
+.dog-tag-create-dashboard {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background-color: transparent;
+    border: none;
+    color: rgb(208,208,208);
+    font-family: Arbutus, cursive;
+}
+
+.dog-tag-create-dashboard:focus {
+    background-color: transparent;
+}
+
+.dog-tag-create-dashboard:focus-visible {
+    background-color: transparent;
+    outline: none;
+}
+
+.dog-tag-create-rs {
+    color: rgb(208,208,208);
+    font-family: Arbutus, cursive;
+    position: absolute;
+    width: 100%;
+    left: 1%;
+    top: 65%;
+    font-size: small;
+}
+
+.game-create-user-form {
+    box-shadow: none !important;
+}
+
+.block-header-1 {
+    height: 81%;
+    margin-bottom: 0px;
+    padding-top: 0;
+    width: 100%;
+    min-height: 81%;
+    max-height: 100%;
+}
+
+.dash-board-button {
+    background: var(--blue);
+    height: 61px;
+}
+
+.dash-board-button-gray {
+    background: var(--gray);
+    height: 61px;
+}
+
+.button-green {
+    background: var(--green);
+    height: 61px;
+}
+
+.nav-footer {
+    height: 5.6em;
+    background: rgba(0,0,0,0.81);
+}
+
+.nav-header {
+    height: 88px;
+    background: rgba(0,0,0,0.81);
+}
+
+.user-avatar-desktop {
+    padding: 0px;
+    margin: 0px;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.gnd-bg {
+    width: 100%;
+    height: 100%;
+    background: url("/assets/img/backgrounds/5.jpg") center center fixed no-repeat;
+    position: fixed;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    z-index: -1;
+    transform: scale(1.1);
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    bottom: 1%;
+}
+
+.gnd-content-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
